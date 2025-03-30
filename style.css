@@ -1,6 +1,10 @@
+section {
+  padding: 5rem 0;
+}
+
 .content-grid {
   --padding-inline: 1rem;
-  --content-max-width: 900px;
+  --content-max-width: 1024px;
   --breakout-max-width: 1200px;
 
   --breakout-size: calc(
@@ -80,6 +84,11 @@ body {
   cursor: pointer;
 }
 
+.resume img {
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+
 .button-shrink {
   display: inline-block;
   transition: all 0.3s ease-in-out;
@@ -95,11 +104,9 @@ body {
 h2 {
   color: white;
   font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: medium;
-  font-style: normal;
-  font-size: 32px;
-  margin: 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .flex-colume {
@@ -186,14 +193,14 @@ p {
 }
 .refrence-layout {
   display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 0;
 }
 .refrence-layout-end {
   grid-column: 2;
 }
 .refrence-button {
   display: grid;
-  padding: 10vh;
   justify-content: center;
 }
 .logo-refrence {
@@ -241,4 +248,5 @@ p {
 .underline-wrapper {
   display: grid;
   justify-content: center;
+  margin-bottom: 4rem;
 }
